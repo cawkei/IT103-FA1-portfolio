@@ -10,7 +10,7 @@
     --shooting-head:   rgb(29, 206, 17);
     --shooting-tail: rgba(207, 255, 203, 0.844);
     
-    --text-gradient: linear-gradient(90deg, rgb(173, 247, 99),rgb(48, 226, 92),  rgb(84, 253, 135));
+    --text-gradient: linear-gradient(90deg, rgba(134, 246, 124, 0.844),rgb(29, 206, 17),  rgba(221, 247, 117, 0.844));
 }
 
 body.darkMode {
@@ -314,4 +314,5 @@ header button:hover {
     50% { transform: translate(calc(var(--x) * -1), calc(var(--y) * -1)) scale(1); }
     100% { transform: translate(var(--x), var(--y)) scale(0); }
 }
+
 
