@@ -3,7 +3,7 @@
     --bg-gradient: linear-gradient(to bottom,rgba(227, 254, 225, 0.996), rgb(196, 255, 161));
     --text-color: rgb(48, 160, 20);
     --border-color: rgb(178, 248, 169);
-    --glow-color: rgb(47, 255, 0);
+    --glow-color: rgb(42, 209, 4);
     
     /* Animation Colors */
     --star-color: rgb(255, 255, 255); 
@@ -314,3 +314,4 @@ header button:hover {
     50% { transform: translate(calc(var(--x) * -1), calc(var(--y) * -1)) scale(1); }
     100% { transform: translate(var(--x), var(--y)) scale(0); }
 }
+
