@@ -68,7 +68,7 @@ body {
         83vw 48vh 1px var(--star-color), 88vw 20vh 2px var(--star-color), 93vw 52vh 1px var(--star-color),
         98vw 35vh 2px var(--star-color), 5vw 60vh 1px var(--star-color), 12vw 65vh 2px var(--star-color),
         18vw 72vh 1px var(--star-color), 25vw 78vh 2px var(--star-color), 30vw 85vh 1px var(--star-color),
-        35vw 68vh 2px var(--star-color),  40vw 82vh 1px var(--star-color), 45vw 92vh 2px var(--star-color),
+        35vw 68vh 2px var(--star-color), 40vw 82vh 1px var(--star-color), 45vw 92vh 2px var(--star-color),
         50vw 75vh 1px var(--star-color), 55vw 88vh 2px var(--star-color), 60vw 95vh 1px var(--star-color),
         65vw 72vh 2px var(--star-color), 70vw 85vh 1px var(--star-color), 75vw 78vh 2px var(--star-color),
         80vw 92vh 1px var(--star-color), 85vw 82vh 2px var(--star-color), 90vw 88vh 1px var(--star-color),
@@ -157,9 +157,8 @@ header img:hover {
 }
 
 li img {
-    max-width: 400px; 
-    width: 90vw; 
-    height: auto; 
+    width: 600px;      
+    height: 400px;
     margin: 5px;
     animation: breathe 2s ease-out infinite alternate;
 }
